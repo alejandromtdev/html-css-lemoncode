@@ -1,0 +1,101 @@
+/* general */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
+
+:root {
+    --primary: #ffffff;
+    --secondary: #212429;
+}
+body {
+    font-family: "Montserrat";
+}
+
+/* cabecera */
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+.navegador{
+    max-width: 920px;
+}
+
+header {
+    font-size: 11px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    background-color:#ffffff
+}
+.icon-burguer{
+    align-items:flex-start;
+}
+.texto-nav {
+    text-align: center;
+    margin: 20px;
+} 
+
+/* contenido web */
+
+
+.contenido-web {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    max-width: 1280px;
+    margin:0 auto;
+    justify-content: center;
+}
+img {
+    border-radius: 5%;
+    
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+}
+
+.derecha {
+    font-weight: bold;
+}
+
+/* footer */
+
+footer {
+    background-color: #212429;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:15px;
+}                       
+
+.footer-item {
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    padding: 20px;
+    align-items: center;
+    
+}
+.barra-imagen{
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding:15px;
+    margin-right: 30px;
+}
+.text{
+    color:#ffffff
+}
